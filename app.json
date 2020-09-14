@@ -9,7 +9,7 @@
         },
         "WSPATH": {
             "description": "websockets path",
-            "value": "/"        
+            "value": "/8f91b6a0"        
         }
     },
     "website": "https://github.com/mixool/v2ray",
