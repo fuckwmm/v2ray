@@ -20,7 +20,7 @@ cat << EOF > /usr/bin/v2ray/config.json
     "inbounds": 
     [
         {
-            "port": 443,"listen": "127.0.0.1","protocol": "vless",
+            "port": 10086,"listen": "127.0.0.1","protocol": "vless",
             "settings": {"clients": [{"id": "$UUID"}],"decryption": "none"},
             "streamSettings": {"network": "ws","wsSettings": {"path": "$WSPATH"}}
         }
